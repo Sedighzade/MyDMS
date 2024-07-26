@@ -228,8 +228,10 @@
 			this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.MinimizeBox = false;
 			this.Name = "ucSingleCMS";
+			this.ShowIcon = false;
+			this.ShowInTaskbar = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Call Details";
+			this.Text = "جزییات تماس";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

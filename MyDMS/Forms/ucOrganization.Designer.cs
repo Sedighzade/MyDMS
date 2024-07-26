@@ -38,6 +38,7 @@ namespace PNB.MyDMS
 			this.lstbxOrg = new PNB.GUI.GUIHelper.ListViewEx2();
 			this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+			this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
 			this.tsbtnSave = new System.Windows.Forms.ToolStripButton();
 			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
 			this.tsbtnAddOrganization = new System.Windows.Forms.ToolStripButton();
@@ -45,10 +46,9 @@ namespace PNB.MyDMS
 			this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
 			this.tslblOrgCount = new System.Windows.Forms.ToolStripLabel();
 			this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+			this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
 			this.tsbtnAddEntity = new System.Windows.Forms.ToolStripButton();
 			this.tsbtnDeleteEntity = new System.Windows.Forms.ToolStripButton();
-			this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-			this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
 			this.panel1.SuspendLayout();
 			this.toolStrip1.SuspendLayout();
 			this.SuspendLayout();
@@ -58,11 +58,11 @@ namespace PNB.MyDMS
 			this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.label1.AutoSize = true;
 			this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-			this.label1.Location = new System.Drawing.Point(900, 14);
+			this.label1.Location = new System.Drawing.Point(821, 13);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(83, 19);
+			this.label1.Size = new System.Drawing.Size(154, 19);
 			this.label1.TabIndex = 11;
-			this.label1.Text = "نام سازمان";
+			this.label1.Text = "جستجوی نام سازمان";
 			// 
 			// txtOrgName
 			// 
@@ -71,7 +71,7 @@ namespace PNB.MyDMS
 			this.txtOrgName.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.txtOrgName.Location = new System.Drawing.Point(3, 10);
 			this.txtOrgName.Name = "txtOrgName";
-			this.txtOrgName.Size = new System.Drawing.Size(891, 27);
+			this.txtOrgName.Size = new System.Drawing.Size(812, 27);
 			this.txtOrgName.TabIndex = 7;
 			// 
 			// panel1
@@ -160,6 +160,13 @@ namespace PNB.MyDMS
 			this.toolStrip1.TabIndex = 0;
 			this.toolStrip1.Text = "toolStrip1";
 			// 
+			// toolStripLabel1
+			// 
+			this.toolStripLabel1.BackColor = System.Drawing.Color.PeachPuff;
+			this.toolStripLabel1.Name = "toolStripLabel1";
+			this.toolStripLabel1.Size = new System.Drawing.Size(47, 22);
+			this.toolStripLabel1.Text = "سازمانها";
+			// 
 			// tsbtnSave
 			// 
 			this.tsbtnSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -209,6 +216,12 @@ namespace PNB.MyDMS
 			this.toolStripSeparator2.Name = "toolStripSeparator2";
 			this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
 			// 
+			// toolStripLabel2
+			// 
+			this.toolStripLabel2.Name = "toolStripLabel2";
+			this.toolStripLabel2.Size = new System.Drawing.Size(46, 22);
+			this.toolStripLabel2.Text = "اشخاص";
+			// 
 			// tsbtnAddEntity
 			// 
 			this.tsbtnAddEntity.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -225,20 +238,7 @@ namespace PNB.MyDMS
 			this.tsbtnDeleteEntity.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.tsbtnDeleteEntity.Name = "tsbtnDeleteEntity";
 			this.tsbtnDeleteEntity.Size = new System.Drawing.Size(23, 22);
-			this.tsbtnDeleteEntity.Text = "Delete Entity";
-			// 
-			// toolStripLabel1
-			// 
-			this.toolStripLabel1.BackColor = System.Drawing.Color.PeachPuff;
-			this.toolStripLabel1.Name = "toolStripLabel1";
-			this.toolStripLabel1.Size = new System.Drawing.Size(47, 22);
-			this.toolStripLabel1.Text = "سازمانها";
-			// 
-			// toolStripLabel2
-			// 
-			this.toolStripLabel2.Name = "toolStripLabel2";
-			this.toolStripLabel2.Size = new System.Drawing.Size(46, 22);
-			this.toolStripLabel2.Text = "اشخاص";
+			this.tsbtnDeleteEntity.Text = "حذف شخص/اداره";
 			// 
 			// ucOrganization
 			// 

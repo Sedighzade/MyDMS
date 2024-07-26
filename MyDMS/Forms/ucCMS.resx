@@ -124,6 +124,22 @@
     <value>148, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tsbtnCollapse.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABtSURBVDhPY6AWmArE5hAmUQCkFqQHDoyB+D4QW4B5+AFO
+        tSBTHwFxIBAfAQmgAZAYSA6kBqdrw4H4MxBfAvNQAUgMJAdSgxMcAOIzQLwCzEMFIDGQHEjNKMADKA5E
+        iqKRooREcVKmODORCRgYAIbTIlFcI3XDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsbtnExpand.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABtSURBVDhPY6AWuA/E74B4F5iHH4DUgNSC9MDBeyB+BMQW
+        YB5+AFIDUgvSAwf7gRgmgc8QZDUgPRjAGIhBTsNmCD45FABSEAxhogCQGEHNowACQAEVAmGiAKICkexo
+        pDghUZyUQU6jKDORCRgYAJUmIdq1otlXAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="tsbtnAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -143,22 +159,6 @@
         gM1JHPBOjtxgJ3E3RVH4LMuE6rr+QJBorScAQtpH5/vuOapre19V1QhRMOZ5HgqtsbMQrKcQdAJvAJRl
         OW6mEOSoSSFfARAhNPMb1ywCIEBoRiebARAhVLwnALhEXExcsCRxiRhF0zRhNGsgkzHiMRAC6hqJhzS8
         xgDhv/6SMP8XSr0A8k+SE5yUM6EAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="tsbtnExpand.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABtSURBVDhPY6AWuA/E74B4F5iHH4DUgNSC9MDBeyB+BMQW
-        YB5+AFIDUgvSAwf7gRgmgc8QZDUgPRjAGIhBTsNmCD45FABSEAxhogCQGEHNowACQAEVAmGiAKICkexo
-        pDghUZyUQU6jKDORCRgYAJUmIdq1otlXAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="tsbtnCollapse.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABtSURBVDhPY6AWmArE5hAmUQCkFqQHDoyB+D4QW4B5+AFO
-        tSBTHwFxIBAfAQmgAZAYSA6kBqdrw4H4MxBfAvNQAUgMJAdSgxMcAOIzQLwCzEMFIDGQHEjNKMADKA5E
-        iqKRooREcVKmODORCRgYAIbTIlFcI3XDAAAAAElFTkSuQmCC
 </value>
   </data>
 </root>

@@ -69,6 +69,7 @@ namespace PNB.MyDMS
             this.mnuView});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
+			this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
 			this.menuStrip1.Size = new System.Drawing.Size(1064, 24);
 			this.menuStrip1.TabIndex = 0;
 			this.menuStrip1.Text = "menuStrip1";
@@ -81,15 +82,15 @@ namespace PNB.MyDMS
             this.toolStripSeparator2,
             this.mnuFileExit});
 			this.mnuFile.Name = "mnuFile";
-			this.mnuFile.Size = new System.Drawing.Size(37, 20);
-			this.mnuFile.Text = "File";
+			this.mnuFile.Size = new System.Drawing.Size(40, 20);
+			this.mnuFile.Text = "فایل";
 			// 
 			// mnuFileOpenContainingFolder
 			// 
 			this.mnuFileOpenContainingFolder.Image = ((System.Drawing.Image)(resources.GetObject("mnuFileOpenContainingFolder.Image")));
 			this.mnuFileOpenContainingFolder.Name = "mnuFileOpenContainingFolder";
-			this.mnuFileOpenContainingFolder.Size = new System.Drawing.Size(201, 22);
-			this.mnuFileOpenContainingFolder.Text = "Open Containing Folder";
+			this.mnuFileOpenContainingFolder.Size = new System.Drawing.Size(180, 22);
+			this.mnuFileOpenContainingFolder.Text = "بازکردن شاخه برنامه";
 			this.mnuFileOpenContainingFolder.Click += new System.EventHandler(this.mnuFileOpenContainingFolder_Click);
 			// 
 			// mnuFileSave
@@ -97,20 +98,20 @@ namespace PNB.MyDMS
 			this.mnuFileSave.Image = ((System.Drawing.Image)(resources.GetObject("mnuFileSave.Image")));
 			this.mnuFileSave.Name = "mnuFileSave";
 			this.mnuFileSave.ShortcutKeys = System.Windows.Forms.Keys.F2;
-			this.mnuFileSave.Size = new System.Drawing.Size(201, 22);
-			this.mnuFileSave.Text = "Save";
+			this.mnuFileSave.Size = new System.Drawing.Size(180, 22);
+			this.mnuFileSave.Text = "ذخیره";
 			this.mnuFileSave.Click += new System.EventHandler(this.mnuFileSave_Click);
 			// 
 			// toolStripSeparator2
 			// 
 			this.toolStripSeparator2.Name = "toolStripSeparator2";
-			this.toolStripSeparator2.Size = new System.Drawing.Size(198, 6);
+			this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
 			// 
 			// mnuFileExit
 			// 
 			this.mnuFileExit.Name = "mnuFileExit";
-			this.mnuFileExit.Size = new System.Drawing.Size(201, 22);
-			this.mnuFileExit.Text = "Exit";
+			this.mnuFileExit.Size = new System.Drawing.Size(180, 22);
+			this.mnuFileExit.Text = "خروج";
 			this.mnuFileExit.Click += new System.EventHandler(this.mnuFileExit_Click);
 			// 
 			// toolsToolStripMenuItem
@@ -118,15 +119,15 @@ namespace PNB.MyDMS
 			this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuToolsSettings});
 			this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-			this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
-			this.toolsToolStripMenuItem.Text = "Tools";
+			this.toolsToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+			this.toolsToolStripMenuItem.Text = "ابزارها";
 			// 
 			// mnuToolsSettings
 			// 
 			this.mnuToolsSettings.Name = "mnuToolsSettings";
 			this.mnuToolsSettings.ShortcutKeys = System.Windows.Forms.Keys.F6;
-			this.mnuToolsSettings.Size = new System.Drawing.Size(135, 22);
-			this.mnuToolsSettings.Text = "Settings";
+			this.mnuToolsSettings.Size = new System.Drawing.Size(180, 22);
+			this.mnuToolsSettings.Text = "تنظیمات";
 			this.mnuToolsSettings.Click += new System.EventHandler(this.mnuToolsSettings_Click);
 			// 
 			// mnuView
@@ -134,16 +135,16 @@ namespace PNB.MyDMS
 			this.mnuView.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuViewAoT});
 			this.mnuView.Name = "mnuView";
-			this.mnuView.Size = new System.Drawing.Size(44, 20);
-			this.mnuView.Text = "View";
+			this.mnuView.Size = new System.Drawing.Size(51, 20);
+			this.mnuView.Text = "نمایش";
 			// 
 			// mnuViewAoT
 			// 
 			this.mnuViewAoT.CheckOnClick = true;
 			this.mnuViewAoT.Name = "mnuViewAoT";
 			this.mnuViewAoT.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-			this.mnuViewAoT.Size = new System.Drawing.Size(192, 22);
-			this.mnuViewAoT.Text = "Always on Top";
+			this.mnuViewAoT.Size = new System.Drawing.Size(223, 22);
+			this.mnuViewAoT.Text = "همیشه پنجره اول باش";
 			this.mnuViewAoT.CheckedChanged += new System.EventHandler(this.mnuViewAoT_CheckedChanged);
 			// 
 			// notifyIcon1

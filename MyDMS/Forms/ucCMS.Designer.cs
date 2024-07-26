@@ -42,11 +42,11 @@
 			this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.baseRenderer1 = new BrightIdeasSoftware.BaseRenderer();
 			this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+			this.tsbtnCollapse = new System.Windows.Forms.ToolStripButton();
+			this.tsbtnExpand = new System.Windows.Forms.ToolStripButton();
+			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
 			this.tsbtnAdd = new System.Windows.Forms.ToolStripButton();
 			this.tsbtnEdit = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-			this.tsbtnExpand = new System.Windows.Forms.ToolStripButton();
-			this.tsbtnCollapse = new System.Windows.Forms.ToolStripButton();
 			((System.ComponentModel.ISupportInitialize)(this.olv)).BeginInit();
 			this.panel1.SuspendLayout();
 			this.toolStrip1.SuspendLayout();
@@ -202,6 +202,31 @@
 			this.toolStrip1.TabIndex = 31;
 			this.toolStrip1.Text = "toolStrip1";
 			// 
+			// tsbtnCollapse
+			// 
+			this.tsbtnCollapse.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.tsbtnCollapse.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnCollapse.Image")));
+			this.tsbtnCollapse.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.tsbtnCollapse.Name = "tsbtnCollapse";
+			this.tsbtnCollapse.Size = new System.Drawing.Size(23, 22);
+			this.tsbtnCollapse.Text = "بستن درختواره";
+			this.tsbtnCollapse.Click += new System.EventHandler(this.tsbtnCollapse_Click);
+			// 
+			// tsbtnExpand
+			// 
+			this.tsbtnExpand.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.tsbtnExpand.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnExpand.Image")));
+			this.tsbtnExpand.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.tsbtnExpand.Name = "tsbtnExpand";
+			this.tsbtnExpand.Size = new System.Drawing.Size(23, 22);
+			this.tsbtnExpand.Text = "بازکردن درختواره";
+			this.tsbtnExpand.Click += new System.EventHandler(this.tsbtnExpand_Click);
+			// 
+			// toolStripSeparator1
+			// 
+			this.toolStripSeparator1.Name = "toolStripSeparator1";
+			this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+			// 
 			// tsbtnAdd
 			// 
 			this.tsbtnAdd.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -210,7 +235,7 @@
 			this.tsbtnAdd.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.tsbtnAdd.Name = "tsbtnAdd";
 			this.tsbtnAdd.Size = new System.Drawing.Size(23, 22);
-			this.tsbtnAdd.Text = "Add New Call";
+			this.tsbtnAdd.Text = "افزودن تماس جدید";
 			// 
 			// tsbtnEdit
 			// 
@@ -220,32 +245,7 @@
 			this.tsbtnEdit.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.tsbtnEdit.Name = "tsbtnEdit";
 			this.tsbtnEdit.Size = new System.Drawing.Size(23, 22);
-			this.tsbtnEdit.Text = "Edit";
-			// 
-			// toolStripSeparator1
-			// 
-			this.toolStripSeparator1.Name = "toolStripSeparator1";
-			this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-			// 
-			// tsbtnExpand
-			// 
-			this.tsbtnExpand.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.tsbtnExpand.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnExpand.Image")));
-			this.tsbtnExpand.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.tsbtnExpand.Name = "tsbtnExpand";
-			this.tsbtnExpand.Size = new System.Drawing.Size(23, 22);
-			this.tsbtnExpand.Text = "Expand";
-			this.tsbtnExpand.Click += new System.EventHandler(this.tsbtnExpand_Click);
-			// 
-			// tsbtnCollapse
-			// 
-			this.tsbtnCollapse.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.tsbtnCollapse.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnCollapse.Image")));
-			this.tsbtnCollapse.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.tsbtnCollapse.Name = "tsbtnCollapse";
-			this.tsbtnCollapse.Size = new System.Drawing.Size(23, 22);
-			this.tsbtnCollapse.Text = "Collapse";
-			this.tsbtnCollapse.Click += new System.EventHandler(this.tsbtnCollapse_Click);
+			this.tsbtnEdit.Text = "ویرایش";
 			// 
 			// ucCMS
 			// 
@@ -259,7 +259,6 @@
 			this.Margin = new System.Windows.Forms.Padding(4);
 			this.Name = "ucCMS";
 			this.Size = new System.Drawing.Size(1262, 687);
-			//this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.ucCMS_KeyUp);
 			((System.ComponentModel.ISupportInitialize)(this.olv)).EndInit();
 			this.panel1.ResumeLayout(false);
 			this.panel1.PerformLayout();
