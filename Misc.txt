@@ -1,0 +1,10 @@
+Created by Behzad @ 98.04.14
+
+- LOH
+https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/large-object-heap
+
+Performance counters
+	Gen 2 Collections
+	Large Object Heap size
+ETW events
+	perfview /GCCollectOnly /AcceptEULA /nogui collect	
